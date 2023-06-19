@@ -27,12 +27,6 @@
     margin-top: 100px;
 }
 
-.cculka{
-    margin-left: 600px;
-    color: red;
-    
-}
-
 .button1 {
     color:blue;
     font-style: italic;
@@ -55,17 +49,37 @@
 .button2 {
     color: blue;
     font-style: italic;
+    font-size: 25px;
     background-color: rgb(17, 22, 66);
 
     border-radius: 8px;
     margin-top: 15px;      
     margin-left: 100px;
-    width:500px;
+    width: 250px;
     height: 70px;
 
 }
 
 .button2:hover {
+    box-shadow: 3px 3px 3px blue;
+
+}
+
+.button {
+    color: blue;
+    font-style: italic;
+    font-size: 25px;
+    background-color: rgb(17, 22, 66);
+
+    border-radius: 8px;
+    margin-top: 15px;      
+    margin-left: 100px;
+    width: 250px;
+    height: 70px;
+
+}
+
+.button:hover {
     box-shadow: 3px 3px 3px blue;
 
 }
@@ -128,5 +142,110 @@
 
 .paragraph2 {
     font-size: 35px;
+
+}
+
+
+
+.section3 {
+    background-image: url(Image/PC2.webp);
+    background-position:initial;
+    background-repeat: no-repeat;
+    background-size: 1950px 1100px;
+    margin: 0px;
+
+}
+
+.th1 {
+    background-color: rgb(111, 50, 168);
+    border-radius: 6px;
+     
+}
+
+.th2 {
+    background-color: rgb(67, 32, 133);
+    border-radius: 6px;
+
+}
+
+.td1 {
+    background-color: aqua;
+    color: rgb(153, 74, 243);
+    font-style: italic;
+    
+}
+
+.td2 {
+    background-color: rgb(44, 82, 139);
+    color: rgb(60, 76, 165);
+    font-style: italic;
+
+    width: 190px;
+    height: 60px;
+
+}
+
+.button4 {
+    color: blue;
+    font-style: italic;
+    font-size: 45px;
+    background-color: rgb(17, 22, 66);
+
+    border-radius: 8px;
+    margin-left: 500px;
+    margin-top: 550px;
+    width: 800px;
+    height: 100px;
+
+}
+.button4:hover {
+    box-shadow: 3px 3px 3px purple;
+ 
+}
+
+
+
+
+.section4 {
+    background-color: white;
+    background-size: 1950px 1100px;
+    margin: 0px;
+
+}
+
+.td3 {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 6px;
+    font-style: italic; 
+
+    width: 100px;
+    height: 80px;
+
+}
+
+.button5 {
+    color: white;
+    font-style: italic;
+    font-size: 35px;
+    background-color: rgb(0, 0, 0);
+
+    border-radius: 15px;
+    margin-left: 500px;
+    margin-top: 100px;
+    width: 700px;
+    height: 85px;
+
+}
+.button5:hover {
+    box-shadow: 3px 3px 3px rgb(0, 0, 0);
+ 
+}
+
+
+
+
+.section_end {
+    background-color: black;
 
 }
